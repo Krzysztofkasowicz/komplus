@@ -44,4 +44,16 @@ class UserFactory extends Factory
             ];
         });
     }
+
+    /**
+     * Run the database seeders.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        User::factory()
+            ->count(1)
+            ->create();
+    }
 }

@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use Database\Factories\CompanyFactory;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
